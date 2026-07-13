@@ -7,7 +7,7 @@ description: Provide guidelines on how to determine appropriate git commit messa
 
 Provide guidelines on how to determine appropriate git commit messages that are compliant with project standards. It should be used when generating, modifying, or reviewing git commit messages.
 
-## Rule of thumb
+## Always follow existing style
 
 Always read the previous commit messages of the staged files and mimic the style and format used in those messages.
 

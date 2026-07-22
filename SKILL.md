@@ -19,4 +19,23 @@ Only use the following rules if there're no existing commits for reference:
 
 * Use the [Conventional Commits specification](https://www.conventionalcommits.org/).
 * Use the human's identity for Developer Certificate of Origin (DCO) sign-off.
-* Follow [Attribution — AI Coding Assistants — The Linux Kernel documentation](https://docs.kernel.org/process/coding-assistants.html#attribution) for AI tooling disclosure.
+* Follow [Attribution — AI Coding Assistants — The Linux Kernel documentation](https://docs.kernel.org/process/coding-assistants.html#attribution) for AI tooling disclosure:
+
+    > ## Attribution
+    >
+    > When AI tools contribute to kernel development, proper attribution helps track the evolving role of AI in the development process. Contributions should include an Assisted-by tag in the following format:
+    >
+    > Assisted-by: AGENT\_NAME:MODEL\_VERSION \[TOOL1\] \[TOOL2\]
+    >
+    > Where:
+    >
+    > * `AGENT_NAME` is the name of the AI tool or framework
+    > * `MODEL_VERSION` is the specific model version used
+    > * `[TOOL1] [TOOL2]` are optional specialized analysis tools used (e.g., coccinelle, sparse, smatch, clang-tidy)
+    >  
+    >
+    > Basic development tools (git, gcc, make, editors) should not be listed.
+    >
+    > Example:
+    >
+    > Assisted-by: Claude:claude-3-opus coccinelle sparse

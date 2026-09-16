@@ -39,3 +39,11 @@ Only use the following rules if there're no existing commits for reference:
     > Example:
     >
     > Assisted-by: Claude:claude-3-opus coccinelle sparse
+
+  `MODEL_VERSION` should include the full model identifier (not just the family name, not including reasoning effort, in dash-separated lowercase letters, digits, and dots), example:
+
+    + `claude-sonnet-5`
+    + `gemini-3.8-flash`
+    + `gpt-5.6-sol`
+
+  If the harness doesn't provide it ask the human first.

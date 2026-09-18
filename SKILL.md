@@ -47,3 +47,5 @@ Only use the following rules if there're no existing commits for reference:
     + `gpt-5.6-sol`
 
   If the harness doesn't provide it ask the human first.
+
+  The `Assisted-by` commit trailer should appear before any other trailers of the commit message.
